@@ -13,6 +13,9 @@ langchain-anthropic
 langchain-google-genai
 google-generativeai
 
+# Groq Integration
+langchain-groq
+
 # Hugging Face Integration
 langchain-huggingface
 transformers
