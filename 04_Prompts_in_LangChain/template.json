@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are an expert at interpreting and summarizing research papers.\n\nSummarize the research paper titled \"{paper_input}\" according to the following requirements:\n\nExplanation Style: {style_input}\nExplanation Length: {length_input}\n\nRequired Structure:\n1. Core Summary\n   - Explain the main problem, methods, and findings.\n   - Avoid unnecessary background unless essential.\n\n2. Mathematical Explanation (if present in the paper)\n   - Include important equations in clear, readable form.\n   - Describe each equation\u2019s purpose and intuition.\n   - Provide simple, intuitive pseudocode or code-like steps when helpful.\n\n3. Concept Simplification\n   - Use analogies to clarify complex concepts.\n   - Prefer real-world analogies relevant to everyday reasoning.\n\n4. Limits of Information\n   - If the paper does not include certain requested details, respond with:\n     \"Insufficient information available\"\n   - Never invent or infer unsupported content.\n\nQuality Rules:\n- Maintain factual accuracy and avoid assumptions.\n- Keep sentences concise.\n- Ensure the summary follows the requested style and length.\n- Present information in a structured and readable format.\n\nProduce the final answer in a clean, professional, and coherent narration.\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
