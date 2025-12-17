@@ -8,7 +8,7 @@ load_dotenv()
 # We will use Gemini 2.5 Flash model for this example
 chat_model = ChatGoogleGenerativeAI(model="gemini-1.5-pro") # or other Google GenAI models (e.g., "gemini-2.5-flash", 2.0, etc.)
 # Alternatively, you can use Groq model
-# chat_model = ChatGroq(model="llama-3.3-70b-versatile")
+# chat_model = ChatGroq(model="llama-3.3-70b-versatile") # or other Groq models...
 
 
 # 1st prompt -> detailed report
