@@ -10,7 +10,7 @@ load_dotenv()
 
 # Initialize the Groq model
 model1 = ChatGroq(model='llama-3.3-70b-versatile', temperature=0)
-# Initialize the OpenRouter Api model
+# Initialize the OpenRouter
 model2 = ChatOpenAI(
                     api_key=getenv("OPENROUTER_API_KEY"),
                     model='deepseek/deepseek-r1', 

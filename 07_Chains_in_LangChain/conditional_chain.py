@@ -61,6 +61,7 @@ chain = classification_chain | branch_chain
 
 iput_text = input("Enter customer feedback: ")
 result = chain.invoke({'text': iput_text})
+
 print(result)
 
 chain.get_graph().print_ascii()
