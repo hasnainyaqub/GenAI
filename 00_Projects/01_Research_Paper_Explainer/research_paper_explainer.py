@@ -1,7 +1,7 @@
 import streamlit as st
-from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.prompts import load_prompt
+import json
 
 # --------------------------------
 # Page Config
@@ -13,9 +13,14 @@ st.set_page_config(
 )
 
 # --------------------------------
-# Load Environment
+# API Key Setup
 # --------------------------------
-load_dotenv()
+api_key = st.secrets['GROQ_API_KEY']
+
+headers = {
+        "authorization": f"Bearer {api_key}",
+        "content-type": "application/json"
+    }
 
 # --------------------------------
 # Model
