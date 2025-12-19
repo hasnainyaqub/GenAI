@@ -186,7 +186,7 @@ with right_col:
 # Load Prompt
 # --------------------------------
 prompt_template = load_prompt(
-    "Efficient_prompt.json"
+    "00_Projects/01_Research_Paper_Explainer/Efficient_prompt.json"
 )
 
 # --------------------------------
