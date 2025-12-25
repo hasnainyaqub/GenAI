@@ -4,7 +4,7 @@ from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 
 load_dotenv()
-model = ChatGroq(model="llama-3.3-70b-versatile")  # or other Groq models
+model = ChatGroq(model="groq/compound")  # or other Groq models
 
 # Define the chat prompt template
 chat_prompt = ChatPromptTemplate(
@@ -16,3 +16,6 @@ chat_prompt = ChatPromptTemplate(
 user = input("You: ")
 prompt = chat_prompt.invoke({"domain": "AI", "user_input": user})
 print(f"Prompt: {prompt}")
+
+result = model.invoke(prompt)
+print(f"Bot: {result.content}")
