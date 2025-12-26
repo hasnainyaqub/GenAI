@@ -1,0 +1,18 @@
+Hi, I am Hasnain Yaqoob.
+
+I am an aspiring AI Engineer with a strong interest in building intelligent and practical solutions using modern technologies.
+
+My work and learning mainly focus on machine learning, deep learning, natural language processing, generative AI, computer vision, and FastAPI for backend development. I am continuously improving my skills through hands on projects, structured learning, and solving real world problems.
+
+I enjoy working with data, experimenting with modern AI techniques, and turning ideas into working applications that create real value.
+
+You can connect with me on LinkedIn, Kaggle, X, and GitHub, where I share my learning journey and projects. You can also explore my portfolio to see my work in more detail.
+
+LinkedIn: https://www.linkedin.com/in/hasnainyaqoob/  
+Kaggle: https://www.kaggle.com/hasnainyaqooob  
+X: https://x.com/Hasnain_Yaqoob_  
+GitHub: https://github.com/hasnainyaqub  
+Portfolio: https://hasnainprofile.lovable.app/
+
+Let’s learn, build, and grow together.
+ 
