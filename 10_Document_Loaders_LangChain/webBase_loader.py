@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import WebBaseLoader
 
-url = 'https://hasnainprofile.lovable.app/'
+url = 'https://quest.edu.pk/apply-now/'
 loader = WebBaseLoader(url)
  
 docs = loader.load()
