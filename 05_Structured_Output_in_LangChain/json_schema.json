@@ -1,0 +1,31 @@
+{
+    "title": "Student",
+    "type": "object",
+    "description": "A student object containing personal information and academic details.",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The full name of the student."
+        },
+        "age": {
+            "type": "integer",
+            "description": "The age of the student."
+        },
+        "grade": {
+            "type": "string",
+            "description": "The current grade or class of the student."
+        },
+        "subjects": {
+            "type": "array",
+            "description": "A list of subjects the student is enrolled in.",
+            "items": {
+                "type": "string"
+            }
+        },
+        "gpa": {
+            "type": "number",
+            "description": "The Grade Point Average of the student, on a scale of 0.0 to 4.0."
+        }
+    },
+    "required": ["name", "age", "grade", "subjects", "gpa"]
+} 
