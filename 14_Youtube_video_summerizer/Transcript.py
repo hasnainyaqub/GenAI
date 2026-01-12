@@ -9,6 +9,8 @@ from langchain_core.runnables import RunnableParallel, RunnablePassthrough, Runn
 from langchain_core.output_parsers import StrOutputParser
 from dotenv import load_dotenv
 import re
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
+from langchain_community.llms import HuggingFacePipeline
 load_dotenv()
 
 def extract_youtube_id(url: str) -> str | None:
