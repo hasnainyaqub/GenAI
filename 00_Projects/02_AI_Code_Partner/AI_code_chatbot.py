@@ -1,10 +1,14 @@
 from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate, ChatMessagePromptTemplate, ChatPromptTemplate
 from langchain_core.output_parsers import  StrOutputParser 
-from dotenv import load_dotenv
 import streamlit as st
 
-load_dotenv()
+api_key = st.secrets['GROQ_API_KEY']
+
+headers = {
+       "authorization": f"Bearer {api_key}",
+        "content-type": "application/json"
+}
 
 parser = StrOutputParser()
 
